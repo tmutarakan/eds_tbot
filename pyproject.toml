@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "eds-tbot"
+version = "0.1.0"
+description = ""
+authors = ["tmutarakan <ratibor.tmutarakansky@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.17.0"
+aiogram-dialog = "^2.3.0"
+environs = "^11.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
